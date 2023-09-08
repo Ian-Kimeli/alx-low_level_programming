@@ -1,25 +1,23 @@
 #include <stdio.h>
 /**
  * main - main function
+ *
  *Return: alwats 0
  */
-
 int main(void)
 {
-	char c;
-	char d;
+	int n = 97;
+	int m = 65;
 
-	c = 'a';
-	d = 'A';
 	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
+		(n <= 122) {
+			putchar(n);
+			n++;
 		}
 	while
-		(d <= 'z') {
-			putchar (d);
-			d++;
+		(m <= 90) {
+			putchar (m);
+			m++;
 		}
 	putchar('\n');
 	return (0);
