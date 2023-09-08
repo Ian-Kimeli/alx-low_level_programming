@@ -1,11 +1,20 @@
 #include <stdio.h>
 /**
- *main - Enrty point
- *Description; 'print alphabets lowercase'
- *Return; 'Always 0'
+ * main - main function
+ *
+ *Return: alwats 0
  */
+
 int main(void)
 {
-	putchar(65);
+	char c;
+
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
 	return (0);
 }
