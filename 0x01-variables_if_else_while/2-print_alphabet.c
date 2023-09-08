@@ -1,7 +1,11 @@
-        char i;
-
-	for (i = 'a' ; i <= 'z' ; i++)
-	       putchar(i);
-	putchar('\n');
-	return(0);
+#include <stdio.h>
+/**
+ *main - Enrty point
+ *Description; 'print alphabets lowercase'
+ *Return; 'Always 0'
+ */
+int main(void)
+{
+	putchar(65);
+	return (0);
 }
