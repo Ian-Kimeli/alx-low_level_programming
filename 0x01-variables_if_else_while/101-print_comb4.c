@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - print three number combination
  *
- *Return: alwats 0
+ *Return: 0 success
  */
 
 int main(void)
