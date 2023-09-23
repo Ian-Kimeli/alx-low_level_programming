@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * @rot13: Shifts each letter of string b 13 places in the alphabet
- * 
+ *
  * Return: Always 0.
  */
 char *rot13(char *s)
