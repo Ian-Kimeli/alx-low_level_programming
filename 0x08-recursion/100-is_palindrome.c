@@ -32,7 +32,7 @@ int comparator(char *s, int n1, int n2)
 }
 
 /**
- * is_paindrome - detects if a string is apalindrome.
+ * is_palindrome - detects if a string is apalindrome.
  * @s: string.
  * Return: 1 if s a palindrome, 0 if not.
  */
